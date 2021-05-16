@@ -1149,6 +1149,7 @@ nav ul li:after {
 }
 .profile--text img {
   width: 100%;
+  height: auto;
 }
 .profile--text::after {
   content: "";
