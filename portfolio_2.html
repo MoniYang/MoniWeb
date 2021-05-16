@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/custom.css">
+	<link rel="stylesheet" href="css/all.css">
+	<title>Document</title>
+</head>
+
+<body>
+	<header>
+		<div class="container">
+			<div class="d-flex header__info">
+				<div class="header--top"></div>
+				<ul>
+					<li># Web Design</li>
+					<li># Illustrator</li>
+					<li># Graphic</li>
+				</ul>
+			</div>
+		
+			<nav>
+				<ul>
+                    <li><a href="index.html">首頁</a></li>
+					<li><a href="profile.html">自我介紹</a></li>
+					<li><a href="portfolio.html">作品集</a></li>
+				</ul>
+			</nav>
+		</div>
+		
+	</header>
+	<div class="side__text">
+		<p>Moni's Web</p>
+	</div>
+	<div class="content">
+        <div class="portfolioOne__area">
+            <div class="grid">
+                <div class="item col-md-4">
+                    <p class="slider--text">portfolio 
+						<img src="images/border_bottom.png" alt="">
+					</p>
+                    <div class="portfolio__title">
+                        <p>宏旺精密</p>
+                    </div>
+                    <div class="portfolio__text">
+                        <p>專案內容說明 : 
+                          到現場與客戶共同討論網站需求，及與攝影師共同場勘欲拍攝之工廠，及討論拍攝企劃
+                          </p>
+                          <ul>
+                              <li>製作FucntionalMap 與客戶確認細節，及網站初步規劃</li>
+                              <li>繪製prototype與客戶確認設計</li>
+                              <li>手機板及電腦版靜態頁面切版，完成互動原型</li>
+                          </ul>
+                          <div class="portfolio__link">
+                            <a href="https://www.acstar.com.tw/en/index.html" target="_blank" class="">前往官網<i class="fas fa-long-arrow-alt-right ml-10"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item col-md-3">
+                    <button data-toggle="modal" data-target="#modalAcstarsOne">
+                        <img src="images/acstar/acstar_1.png" alt="">
+                    </button>
+                    
+                </div>
+                <div class="item col-md-3">
+                    <button data-toggle="modal" data-target="#modalAcstarTwo">
+                        <img src="images/acstar/acstar_2.png" alt="">
+                    </button>
+                </div>
+              
+               
+              
+            </div>
+        </div>
+       
+	</div>
+	
+	
+	</section>
+	<footer>
+		<div class="col-md-4 offset-md-4">
+			<div class="footer__img">
+				<img src="images/portfolio/pic.png" alt="">
+			</div>
+			<div class="footer__text">
+				<p>用設計，帶給別人陽光 ｜ 心靈纏繞手繪</p>
+			</div>
+		</div>
+		<div class="footer__copyright">
+			<p>copyright © Moni's Web 2021 • all rights reserved</p>
+		</div>
+	</footer>
+
+    <!-- Modal -->
+    <div class="modal fade" id="modalAcstarsOne" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Desktop</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                </div>
+                <div class="modal-body">
+                    <img src="images/acstar/acstar_1.png" alt="">
+                </div>
+                <div class="modal-footer">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="modalAcstarTwo" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-sm modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Mobile</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                </div>
+                <div class="modal-body">
+                    <img src="images/acstar/acstar_2.png" alt="">
+                </div>
+                <div class="modal-footer">
+                </div>
+            </div>
+        </div>
+    </div>
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+	
+
+
+	<script src="scripts/bootstrap.js"></script>
+	<script src="scripts/bootstrap.bundle.js"></script>
+	<script src="scripts/owl.carousel.js"></script>
+	<script src="scripts/custom.js"></script>
+	<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.js"></script>
+
+	<script>
+		    $('.grid').masonry({
+        // options...
+        itemSelector: '.item',
+      
+      });
+	</script>
+</body>
+
+</html>
