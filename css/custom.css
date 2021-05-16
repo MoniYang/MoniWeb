@@ -1022,6 +1022,11 @@ nav ul li:after {
   writing-mode: vertical-lr;
   position: fixed;
   left: -20px;
+  height: 100vh;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .side__text p {
   margin: 0px;
