@@ -284,6 +284,9 @@ nav{
 		font-family: 'Righteous', ' arial', cursive;
 		position: relative;
 		z-index: 1;
+		@include rwdw(767){
+			display:block;
+		}
 		@include rwdw(480){
 			font-size:font(2);
 		}
